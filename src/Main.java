@@ -224,3 +224,34 @@ class loop17{
         System.out.println(b);
     }
 }
+
+//occurences
+class loop18{
+    static void main(String[] args) {
+        int n = 45455;
+        int count = 0;
+        while(n>0){
+            int rem = n%10;
+            if(rem==5){
+                //System.out.println(count);
+                count++;
+            }
+            n=n/10;
+        }
+        System.out.println(count);
+    }
+}
+
+//reverse a number
+class loop19{
+    static void main(String[] args) {
+        int num = 28479;
+        int ans = 0;
+        while(num>0){
+            int rem = num%10;
+            num/=10;
+            ans = ans * 10+rem;
+        }
+        System.out.println(ans);
+    }
+}
