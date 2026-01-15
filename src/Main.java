@@ -255,3 +255,21 @@ class loop19{
         System.out.println(ans);
     }
 }
+
+//switch case
+class loop20 {
+    static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int button = scan.nextInt();
+        if (button == 1) {
+            System.out.println("hello");
+        } else if (button == 2) {
+            System.out.println("namaste");
+        } else if (button == 3) {
+            System.out.println("bonjour");
+        } else {
+            System.out.println("invalid");
+        }
+    }
+}
+
