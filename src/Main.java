@@ -137,6 +137,11 @@ class loop11{
 //
 class loop12{
     static void main(String[] args) {
-
+        Scanner scan = new Scanner(System.in);
+        int count = 0;
+        do{
+            System.out.println("enter the num>10:");
+            count = scan.nextInt();
+        }while(count<10);
     }
 }
