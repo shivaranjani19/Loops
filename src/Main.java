@@ -158,3 +158,33 @@ class loop13{
         System.out.println(sum);
     }
 }
+
+//tables
+class loop14{
+    static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("enter the number:");
+        int n = scan.nextInt();
+        for(int i=0;i<11;i++){
+            System.out.println(n*i);
+        }
+    }
+}
+
+//find the maxim
+class loop15{
+    static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int a = scan.nextInt();
+        int b = scan.nextInt();
+        int c = scan.nextInt();
+        int max = a;
+        if(b>max){
+            max=b;
+        }
+        if(c>max){
+            max=c;
+        }
+        System.out.println(max);
+    }
+}
