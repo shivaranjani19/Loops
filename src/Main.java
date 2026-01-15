@@ -134,7 +134,7 @@ class loop11{
     }
 }
 
-//
+//number greater than 10
 class loop12{
     static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -143,5 +143,18 @@ class loop12{
             System.out.println("enter the num>10:");
             count = scan.nextInt();
         }while(count<10);
+    }
+}
+
+//sum of first n natural numbers
+class loop13{
+    static void main(String[] args) {
+            Scanner scan = new Scanner(System.in);
+            int n = scan.nextInt();
+            int sum = 0;
+            for(int i=0;i<=n;i++){
+                sum = sum+i;
+            }
+        System.out.println(sum);
     }
 }
