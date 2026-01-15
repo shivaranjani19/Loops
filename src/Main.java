@@ -188,3 +188,39 @@ class loop15{
         System.out.println(max);
     }
 }
+
+//uppercase or lowercase
+class loop16 {
+    static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+            char ch = in.next().trim().charAt(0);
+            if(ch >='a'&&ch <='z')
+
+            {
+                System.out.println("lowercase");
+            }
+            else
+
+            {
+                System.out.println("uppercase");
+            }
+    }
+}
+
+//fibonacci
+class loop17{
+    static void main(String[] args) {
+                Scanner scan = new Scanner(System.in);
+                int n = scan.nextInt();
+                int a = 0;
+                int b = 1;
+                int count = 2;
+                while(count<=n){
+                    int temp = b;
+                    b = b+a;
+                    a = temp;
+                    count++;
+                }
+        System.out.println(b);
+    }
+}
