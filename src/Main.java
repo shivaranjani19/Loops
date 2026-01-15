@@ -133,3 +133,10 @@ class loop11{
         }while(i<=4);
     }
 }
+
+//
+class loop12{
+    static void main(String[] args) {
+
+    }
+}
